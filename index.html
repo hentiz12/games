@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		.shooter {
+			width: 80px; 
+			position: absolute; 	
+		}
+		.box {
+			background-image: url(game.png);
+			height: 1000px; 
+			background-size: 100% 100%;
+		}
+		.zombies {
+			width: 80px; 
+			position: absolute;
+		}
+	</style>
+</head>
+<body>	
+	
+	<div class="box" style="">
+		
+		<h5 style="position: absolute; left: 600px; top: 50px" class="score"></h5>
+
+		<!--ГОРОХИ-->
+	    <img class="shooter" src="peashooter.png"  style="top: 250px; ">		
+		<img class="shooter" src="peashooter.png"  style="top: 350px; ">	
+		<img class="shooter" src="peashooter.png"  style="top: 450px; ">	
+		<img class="shooter" src="peashooter.png"  style="top: 550px; ">
+		<img class="shooter" src="peashooter.png"  style="top: 650px; ">
+
+
+		<!--ЗОМБИ-->
+		<img class="zombies" src="zombie1.png" style="top: 220px">
+		<img class="zombies" src="zombie2.png" style="top: 320px">
+		<img class="zombies" src="zombie2.png" style="top: 420px">
+		<img class="zombies" src="zombie4.png" style="top: 520px">
+		<img class="zombies" src="zombie4.png" style="top: 620px">
+	</div>
+<script>
+	let myshooter = document.querySelectorAll(".shooter");
+	let myzombies = document.querySelectorAll(".zombies");
+
+
+
+
+</script>
+</body>
+</html>
